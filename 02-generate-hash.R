@@ -41,7 +41,7 @@ generate_hash <- function(x, algorithm, rounds, salt) {
     hash <- algorithm(hash)
   }
   
-  # Modify hash to conform to common password rules
+  # Modify hash
   str_sub(hash, 5, 5) <- "@"
   str_sub(hash, 8, 8) <- "O"
   
