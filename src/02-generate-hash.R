@@ -14,7 +14,7 @@
 #' ---
 
 #' # 1. Load Packages 
-source(here::here("/R/01-load-packages.R"))
+source(here::here("/src/01-load-packages.R"))
 
 #' # 2. Generate Hash
 #' Description  
