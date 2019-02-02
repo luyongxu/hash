@@ -33,6 +33,7 @@ load_library <- function(package_name) {
 }
 load_library("openssl")
 load_library("stringr")
+load_library("tidyverse")
 
 #' # 2. Options 
 #' Turn off scientific notation.
