@@ -53,4 +53,3 @@ generate_hash <- function(x, algorithm, rounds, salt, length = 64) {
   return(hash)
 }
 
-generate_hash() %>% write_clipboard()
